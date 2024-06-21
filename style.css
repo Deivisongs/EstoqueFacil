@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header h1{
+    font-style: italic;
+}
+.header p{
+    font-size: 14px;
+}
+
+.form{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.form .input{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 2px solid #65656577;
+    margin-top: 40px;
+}
+.form .input:focus-within {
+    border-bottom: 2px solid #16302B;
+}
+.form > a{
+    font-weight: 400;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+.form > button{
+    background: #16302B;
+    /*color: white; <-- Ativar quando começar a desenvolver*/
+    border-radius: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*Apagar quando começar a desenvolver*/
+.form > button > a{
+    color: white;
+}
